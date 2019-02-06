@@ -1,4 +1,4 @@
-class SastraController<ActionController::Base
+class SastraController<ApplicationController
 
 def home
 
