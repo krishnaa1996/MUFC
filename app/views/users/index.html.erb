@@ -1,0 +1,17 @@
+<div class="container">
+   <h3 align="center">Members </h3>
+    <div class="row">
+       <% User.all.each do |user| %>   
+        <div class="col s12 m6">
+            <div class="card red darken-1">
+                <div class="card-content white-text">
+                 <span class="card-title"><%= user.username%></span>
+                 <a href="#" class="white-text"><%=user.email %></a>
+  
+                </div>
+            </div>
+        </div>
+        <% end %>
+    </div>
+</div>
+            
